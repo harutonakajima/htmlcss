@@ -1,0 +1,42 @@
+* {
+margin: 0;
+padding: 0;
+width: 100%;
+}
+section {
+  width: 280px;
+  margin: 50px 15px;
+  float: left;
+  padding: 10px;
+  border: 1px solid rgb(160, 149, 149);
+  position: relative;
+}
+.step {
+  line-height: 30px;
+  text-align: center;
+  background-color: orange;
+  color: white;
+  width: 60px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@media screen and (max-width:768px) {
+  main {
+    width: 90%;
+  }
+section {
+  width: 100%;
+  float: none;
+  display: block;
+  margin-top: 20px;
+}
+section:first-child{
+  margin-top: 50px;  
+}
+section:nth-last-child{
+margin-bottom: 50px;
+}
+
+}
